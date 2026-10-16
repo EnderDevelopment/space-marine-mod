@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spacemarinemod",
+  "version": "1.0.0",
+  "name": "Space Marine Mod",
+  "description": "A Fabric mod for Minecraft 1.21.4 featuring Warhammer 40K Space Marine armor set with jetpack dash ability, boltgun weapon, and custom bolt ammunition.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.senchinsilvestr.spacemarinemod.SpaceMarineMod"
+    ]
+  },
+  "mixins": [
+    "spacemarinemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
